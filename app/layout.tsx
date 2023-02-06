@@ -1,4 +1,4 @@
-import Navigation from './components/Navigation/Navigation'
+import Navigation from '../components/Navigation/Navigation'
 import './globals.css'
 
 export default function RootLayout({
