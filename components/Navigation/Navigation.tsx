@@ -45,19 +45,20 @@ export default function Navigation () {
                             height={100}
                             priority={true}
                             quality={100}
+                            className='object-contain'
                         />
                     </li>
                     {
                     Links.map((link) => (
-                        <li key={link.label} >
-                            <Link href={link.url} className='text-white cursor-pointer transition duration-[.4s] hover:text-[#b3b3b3]'>
+                        <li key={link.label} className='hidden md:flex'>
+                            <Link href={link.url} className='text-xs lg:text-sm text-white cursor-pointer transition duration-[.4s] hover:text-[#b3b3b3]'>
                                 {link.label}
                             </Link>
                         </li>
                     ))
                 }
                 </ul>
-                <div className='flex flex-row items-center gap-4 '>
+                <div className='flex flex-row items-center gap-4'>
                     <Search />
                     <Notifications />
                     <Image
