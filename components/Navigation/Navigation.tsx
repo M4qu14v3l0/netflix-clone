@@ -49,7 +49,7 @@ export default function Navigation () {
                         />
                     </li>
                     {
-                    // comment
+                    // commen
                     Links.map((link) => (
                         <li key={link.label} className='hidden md:flex'>
                             <Link href={link.url} className='text-xs lg:text-sm text-white cursor-pointer transition duration-[.4s] hover:text-[#b3b3b3]'>
