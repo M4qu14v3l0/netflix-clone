@@ -58,7 +58,7 @@ export default function Navigation () {
                         </li>
                     ))
                 }
-                {/* comme */}
+                {/* comm */}
                 </ul>
                 <div className='flex flex-row items-center gap-4'>
                     <Search />
