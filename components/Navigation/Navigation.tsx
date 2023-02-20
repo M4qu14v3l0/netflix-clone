@@ -72,7 +72,7 @@ export default function Navigation () {
                     />
                 </div>
             </nav>
-            {/* co */}
+            {/* c */}
         </header>
     )
 }
